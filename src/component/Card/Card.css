@@ -1,0 +1,47 @@
+
+.qozo
+{
+    position: relative;
+    background-color: white;
+    width:343px;
+    height:274px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.heading{
+    position: relative;
+    left:40px;
+    top: 9px;
+    text-align: left;
+    margin-top: 10px;
+
+font: normal normal bold  Ariana Pro;
+}
+.response{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:120px;
+    height:30px;
+    border-radius: 20px;
+    background-color: white;
+    color:#1274FC;
+    position:relative;
+    bottom:60px;
+    left:10px;
+    letter-spacing: 0px;
+
+
+    
+}
+.image{
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 13.5px;
+    width: 343px;
+    height:220px;
+}

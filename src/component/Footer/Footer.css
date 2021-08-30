@@ -1,0 +1,17 @@
+.footer{
+    
+   display: flex;
+   justify-content: space-around;
+   position:fixed;
+   width:400px;
+   height:50px;
+   bottom:30px;
+  align-items: inherit;
+  background: white;
+  border: 2px solid black;
+   border-radius: 0px 0px 2px 2px;
+    
+}
+.tab{
+    cursor: pointer;
+}

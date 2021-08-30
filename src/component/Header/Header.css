@@ -1,0 +1,36 @@
+.wrapper{
+display:flex;
+justify-content:space-between;
+margin:5px 5px ;
+font-weight: bold;
+font-weight: bold;
+
+}
+
+
+.circle {
+    background:#F25278;
+    border-radius:50%;
+	display:table;
+	height: 36px;
+	font-size: 0.6em;
+	width: 40px;
+	margin:0 auto;
+}
+.circle span {
+    color: white;
+	display:table-cell;
+	vertical-align:middle;
+	height:30px;
+	width:30px;
+	text-align:center;
+    padding: 0 5px;
+}
+.Container{
+	position:fixed;
+	width:400px;
+	top:70px;
+	background-color: rgb(205, 239, 255);
+	border: 2px solid rgb(141, 140, 140);;
+    
+}

@@ -1,0 +1,74 @@
+
+.card{
+  display: flex;
+  position:relative;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 400px;
+ height:590px;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 4em;;
+  background-color:#115e75;
+  overflow-y: scroll;
+  -ms-overflow-style: none ;
+  top:35px;
+}
+.question{
+  margin-top: 3em;
+  font-weight: bold;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+.pseudo{
+  display:flex;
+  position: relative;
+  width:400px;
+  height:75px;
+  background-color:#115e75;
+padding-top:75px;
+}
+.pseuduo{
+  display:flex;
+  position: relative;
+  width:400px;
+  height:75px;
+  background-color:#115e75;
+padding-top:75px;
+}
+
+
+.water{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+
+@media(max-width:400px){
+  .card{
+    display: flex;
+    position:relative;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    height:690px;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;;
+    background-color:#115e75;
+    overflow-y: scroll;
+    -ms-overflow-style: none ;
+    top:35px;
+  }
+}
+
